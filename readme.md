@@ -5,6 +5,6 @@ A fun integer-bound quickhull implementation.
 
 ## Usage
 ```go
-S := []Point{{1, 2}, {3, 4}}
+S := []quickhull.Point{{1, 2}, {3, 4}}
 H := quickhull.Find(S)
 ```
